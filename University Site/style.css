@@ -1,6 +1,6 @@
 :root {
-  --web-color: rgb(28, 67, 81);
-  --web-color-light: rgb(74, 194, 234);
+  --web-color: rgb(212, 33, 33);
+  --web-color-light: rgb(234, 135, 74);
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -33,9 +33,9 @@ li {
 nav {
   top: 20px;
   position: fixed;
-  border-color: aqua;
+  border-color: rgb(224, 150, 150);
   z-index: 100;
-  color: white;
+  color: rgb(38, 18, 18);
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -51,7 +51,7 @@ nav li a:hover {
 }
 button {
   background: var(--web-color);
-  color: white;
+  color: rgb(230, 134, 134);
   padding: 10px;
   border-radius: 5px;
   transition-duration: 0.4s;
